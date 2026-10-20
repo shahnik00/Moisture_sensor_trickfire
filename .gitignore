@@ -1,0 +1,21 @@
+# KiCad automatic backups
+*-backups/
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.pcb-bak
+
+# KiCad local preferences and temporary files
+*.kicad_prl
+*.lck
+~*
+_autosave-*
+*.tmp
+fp-info-cache
+
+# Operating-system files
+Thumbs.db
+Desktop.ini
+.DS_Store
