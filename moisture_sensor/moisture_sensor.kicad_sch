@@ -4847,26 +4847,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 223.52) (xy 109.22 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18fe984e-911a-40ad-8dfb-9f19f5b30592")
-	)
-	(wire
-		(pts
-			(xy 86.36 231.14) (xy 96.52 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da248e3-9724-4e55-a39e-a922f37a03d4")
-	)
-	(wire
-		(pts
 			(xy 238.76 292.1) (xy 238.76 298.45)
 		)
 		(stroke
@@ -4987,16 +4967,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 226.06) (xy 109.22 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fcef056-830b-47c4-8fb4-80512ad3da72")
-	)
-	(wire
-		(pts
 			(xy 302.26 309.88) (xy 314.96 309.88)
 		)
 		(stroke
@@ -5054,16 +5024,6 @@
 			(type default)
 		)
 		(uuid "6e50d9cb-aaed-4475-8555-2fb120044443")
-	)
-	(wire
-		(pts
-			(xy 109.22 228.6) (xy 109.22 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70a9add6-37fa-4e51-8f23-af3e0702bda9")
 	)
 	(wire
 		(pts
@@ -5137,16 +5097,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 226.06) (xy 109.22 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3b1178-de51-48d1-bc16-3b9b6426ebae")
-	)
-	(wire
-		(pts
 			(xy 156.21 171.45) (xy 156.21 173.99)
 		)
 		(stroke
@@ -5174,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "936bfe56-1437-4fce-bdea-56c208f5c94c")
-	)
-	(wire
-		(pts
-			(xy 86.36 223.52) (xy 96.52 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93868967-cd4e-40f6-ac41-d746e6315629")
 	)
 	(wire
 		(pts
@@ -5264,16 +5204,6 @@
 			(type default)
 		)
 		(uuid "a671f7c8-e75f-405d-89d1-f977ad7d5851")
-	)
-	(wire
-		(pts
-			(xy 109.22 231.14) (xy 104.14 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abad1848-74b0-4938-9015-80f2e786c8b5")
 	)
 	(wire
 		(pts
@@ -5364,16 +5294,6 @@
 			(type default)
 		)
 		(uuid "c780a478-8c82-4593-9466-75709ed64b16")
-	)
-	(wire
-		(pts
-			(xy 118.11 228.6) (xy 109.22 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca47a00-3a30-4c7c-868d-255d4d22f679")
 	)
 	(wire
 		(pts
@@ -8238,16 +8158,6 @@
 		)
 		(uuid "0ae61725-5310-409b-8b67-ae14addcd1f2")
 	)
-	(label "PROBE_B"
-		(at 86.36 231.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fb43e14-8581-40f1-ae81-857992732d9d")
-	)
 	(label "CLK_BUFFERED"
 		(at 73.66 187.96 0)
 		(effects
@@ -8377,16 +8287,6 @@
 			(justify right bottom)
 		)
 		(uuid "cbb3c1e6-feea-4a70-aa57-75068977235b")
-	)
-	(label "RF_Drive(A)"
-		(at 86.36 223.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1480d45-9ffd-477c-a8eb-9046e2ee68eb")
 	)
 	(label "FILTER_IN"
 		(at 114.3 171.45 0)
@@ -9239,7 +9139,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 233.68 330.2 180)
+		(at 237.49 328.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9248,7 +9148,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dadf004-bfbf-4849-b76d-e32a90f4140d")
 		(property "Reference" "TH1"
-			(at 237.49 328.6124 0)
+			(at 241.3 327.3424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9157,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 237.49 331.1524 0)
+			(at 241.3 329.8824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 331.47 0)
+			(at 237.49 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 331.47 0)
+			(at 237.49 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +9184,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 233.68 330.2 0)
+			(at 237.49 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10955,73 +10855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f989418-8659-4181-861b-d3fd620da08e")
-		(property "Reference" "C?"
-			(at 100.33 234.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 100.33 227.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 230.1748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "75516d5c-f118-43ac-bb32-d102ceb66b35")
-		)
-		(pin "1"
-			(uuid "c92fca25-c4d5-4bdb-a369-b7f4e88d87c9")
-		)
-		(instances
-			(project "moisture_sensor"
-				(path "/825525fa-c0d3-4d50-9436-189079d31295"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 181.61 0)
 		(unit 1)
@@ -12234,74 +12067,6 @@
 			(project "moisture_sensor"
 				(path "/825525fa-c0d3-4d50-9436-189079d31295"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 223.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2675714-4c2e-4a19-a7d1-5375f161e844")
-		(property "Reference" "C?"
-			(at 100.33 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 100.33 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 222.5548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e394415f-f72b-4f23-8fc9-e8033d00c522")
-		)
-		(pin "1"
-			(uuid "89143948-55b6-4aa7-834f-1079ccca559a")
-		)
-		(instances
-			(project ""
-				(path "/825525fa-c0d3-4d50-9436-189079d31295"
-					(reference "C?")
 					(unit 1)
 				)
 			)

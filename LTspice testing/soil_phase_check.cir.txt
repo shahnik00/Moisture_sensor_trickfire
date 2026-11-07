@@ -1,0 +1,33 @@
+* Soil divider and approximate AD8302 input loading
+* Hypothetical probe values, not measured soil parameters
+
+.param Csoil=30p
+.param Rsoil=1k
+.param Llead=20n
+
+VDRIVE A 0 AC 1
+RSENSE A B 100
+
+* Simplified probe model
+LLEAD B TIP {Llead}
+RLOSS TIP 0 {Rsoil}
+CSOIL TIP 0 {Csoil}
+
+* Reference sampling path
+RREF_TOP A REF_TAP 499
+RREF_BOT REF_TAP 0 49.9
+CREF_COUP REF_TAP REF_IN 1n
+RREF_INPUT REF_IN 0 3k
+CREF_INPUT REF_IN 0 2p
+
+* Probe sampling path
+RPROBE_TOP B PROBE_TAP 499
+RPROBE_BOT PROBE_TAP 0 49.9
+CPROBE_COUP PROBE_TAP PROBE_IN 1n
+RPROBE_INPUT PROBE_IN 0 3k
+CPROBE_INPUT PROBE_IN 0 2p
+
+.step param Csoil list 5p 10p 30p 100p 300p
+.ac dec 200 1Meg 300Meg
+
+.end

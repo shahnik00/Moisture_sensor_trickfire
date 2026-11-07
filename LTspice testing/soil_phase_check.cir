@@ -1,0 +1,70 @@
+
+* TrickFire Final 50 MHz Prototype Circuit
+* Idealized AC fundamental model
+* Probe: two 2.5mm diameter rods, 15mm spacing
+* Exposed electrode length: 50mm
+
+.param Csoil=20p
+.param Rsoil=1k
+.param Llead=40n
+
+* Approximate fundamental of a 3.3V CMOS clock
+VCLK CLK 0 AC 1.485
+
+* Drive harmonic-reduction network
+RDRV1 CLK DRV1 100
+CDRV1 DRV1 0 33p
+RDRV2 DRV1 DRV2 100
+CDRV2 DRV2 0 33p
+
+* Block DC from the soil electrodes
+CEXC DRV2 A 1n
+
+* Sense resistor
+RSENSE A B 100
+
+* Soil probe lumped approximation
+LLEAD B TIP {Llead}
+RLOSS TIP 0 {Rsoil}
+CSOIL TIP 0 {Csoil}
+
+* Reference divider
+RREF_TOP A REF_TAP 499
+RREF_BOT REF_TAP 0 49.9
+
+* Reference low-pass phase network
+CREF_COUP REF_TAP REF_SRC 1n
+RREF_LP REF_SRC REF_IN 330
+CREF_LP REF_IN 0 10p
+
+* Probe divider
+RPROBE_TOP B PROBE_TAP 499
+RPROBE_BOT PROBE_TAP 0 49.9
+
+* Probe high-pass phase network
+CPROBE_COUP PROBE_TAP PROBE_SRC 1n
+CPROBE_HP PROBE_SRC PROBE_IN 10p
+RPROBE_HP PROBE_IN 0 330
+
+* Approximate AD8302 input loads
+RREF_INPUT REF_IN 0 3k
+CREF_INPUT REF_IN 0 2p
+RPROBE_INPUT PROBE_IN 0 3k
+CPROBE_INPUT PROBE_IN 0 2p
+RPROBE_BLEED PROBE_SRC 0 1Meg
+* Probe parameter sweeps
+.step param Csoil list 3p 5p 10p 20p 40p 60p
+.step param Rsoil list 100 1k 10k
+.step param Llead list 10n 20n 40n 60n 80n
+
+* Narrow operating-frequency sweep
+.ac lin 201 45Meg 55Meg
+
+* Actual detector input ratio
+.meas AC ratio50 FIND V(PROBE_IN)/V(REF_IN) AT=50Meg
+
+* Absolute input signal levels
+.meas AC ref50 FIND V(REF_IN) AT=50Meg
+.meas AC probe50 FIND V(PROBE_IN) AT=50Meg
+
+.end
