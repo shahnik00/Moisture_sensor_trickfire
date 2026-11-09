@@ -1,0 +1,182 @@
+LTspice 24.1.0 for Windows
+Circuit: C:\Users\shahn\OneDrive\Desktop\KICAD\Moisture_sensor_trickfire\LTspice testing\LCfilter.net
+Start Time: Sat Nov  7 19:15:10 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+.step rsoil=100 csoil=5e-12 llead=1e-08
+.step rsoil=1000 csoil=5e-12 llead=1e-08
+.step rsoil=10000 csoil=5e-12 llead=1e-08
+.step rsoil=100 csoil=2e-11 llead=1e-08
+.step rsoil=1000 csoil=2e-11 llead=1e-08
+.step rsoil=10000 csoil=2e-11 llead=1e-08
+.step rsoil=100 csoil=6e-11 llead=1e-08
+.step rsoil=1000 csoil=6e-11 llead=1e-08
+.step rsoil=10000 csoil=6e-11 llead=1e-08
+.step rsoil=100 csoil=1e-10 llead=1e-08
+.step rsoil=1000 csoil=1e-10 llead=1e-08
+.step rsoil=10000 csoil=1e-10 llead=1e-08
+.step rsoil=100 csoil=3e-10 llead=1e-08
+.step rsoil=1000 csoil=3e-10 llead=1e-08
+.step rsoil=10000 csoil=3e-10 llead=1e-08
+.step rsoil=100 csoil=5e-10 llead=1e-08
+.step rsoil=1000 csoil=5e-10 llead=1e-08
+.step rsoil=10000 csoil=5e-10 llead=1e-08
+.step rsoil=100 csoil=5e-12 llead=4e-08
+.step rsoil=1000 csoil=5e-12 llead=4e-08
+.step rsoil=10000 csoil=5e-12 llead=4e-08
+.step rsoil=100 csoil=2e-11 llead=4e-08
+.step rsoil=1000 csoil=2e-11 llead=4e-08
+.step rsoil=10000 csoil=2e-11 llead=4e-08
+.step rsoil=100 csoil=6e-11 llead=4e-08
+.step rsoil=1000 csoil=6e-11 llead=4e-08
+.step rsoil=10000 csoil=6e-11 llead=4e-08
+.step rsoil=100 csoil=1e-10 llead=4e-08
+.step rsoil=1000 csoil=1e-10 llead=4e-08
+.step rsoil=10000 csoil=1e-10 llead=4e-08
+.step rsoil=100 csoil=3e-10 llead=4e-08
+.step rsoil=1000 csoil=3e-10 llead=4e-08
+.step rsoil=10000 csoil=3e-10 llead=4e-08
+.step rsoil=100 csoil=5e-10 llead=4e-08
+.step rsoil=1000 csoil=5e-10 llead=4e-08
+.step rsoil=10000 csoil=5e-10 llead=4e-08
+.step rsoil=100 csoil=5e-12 llead=8e-08
+.step rsoil=1000 csoil=5e-12 llead=8e-08
+.step rsoil=10000 csoil=5e-12 llead=8e-08
+.step rsoil=100 csoil=2e-11 llead=8e-08
+.step rsoil=1000 csoil=2e-11 llead=8e-08
+.step rsoil=10000 csoil=2e-11 llead=8e-08
+.step rsoil=100 csoil=6e-11 llead=8e-08
+.step rsoil=1000 csoil=6e-11 llead=8e-08
+.step rsoil=10000 csoil=6e-11 llead=8e-08
+.step rsoil=100 csoil=1e-10 llead=8e-08
+.step rsoil=1000 csoil=1e-10 llead=8e-08
+.step rsoil=10000 csoil=1e-10 llead=8e-08
+.step rsoil=100 csoil=3e-10 llead=8e-08
+.step rsoil=1000 csoil=3e-10 llead=8e-08
+.step rsoil=10000 csoil=3e-10 llead=8e-08
+.step rsoil=100 csoil=5e-10 llead=8e-08
+.step rsoil=1000 csoil=5e-10 llead=8e-08
+.step rsoil=10000 csoil=5e-10 llead=8e-08
+Total elapsed time: 21.640 seconds.
+
+Files loaded:
+C:\Users\shahn\OneDrive\Desktop\KICAD\Moisture_sensor_trickfire\LTspice testing\LCfilter.net
+
+
+Measurement: RefPP
+  step	PP(V(REF_IN))	FROM	TO
+     1	0.0974191986024	8e-07	1e-06
+     2	0.110655087978	8e-07	1e-06
+     3	0.113666970283	8e-07	1e-06
+     4	0.0956251621246	8e-07	1e-06
+     5	0.102772541344	8e-07	1e-06
+     6	0.104070965201	8e-07	1e-06
+     7	0.0898962542415	8e-07	1e-06
+     8	0.0905240885913	8e-07	1e-06
+     9	0.0910209491849	8e-07	1e-06
+    10	0.0869157873094	8e-07	1e-06
+    11	0.0878401063383	8e-07	1e-06
+    12	0.0884970538318	8e-07	1e-06
+    13	0.0845635607839	8e-07	1e-06
+    14	0.0868347249925	8e-07	1e-06
+    15	0.0876303873956	8e-07	1e-06
+    16	0.084495510906	8e-07	1e-06
+    17	0.0869977809489	8e-07	1e-06
+    18	0.0877375602722	8e-07	1e-06
+    19	0.0975248850882	8e-07	1e-06
+    20	0.110591959208	8e-07	1e-06
+    21	0.113637059927	8e-07	1e-06
+    22	0.0954870246351	8e-07	1e-06
+    23	0.102156385779	8e-07	1e-06
+    24	0.103388771415	8e-07	1e-06
+    25	0.0893925912678	8e-07	1e-06
+    26	0.0894149243832	8e-07	1e-06
+    27	0.0898354351521	8e-07	1e-06
+    28	0.0865181982517	8e-07	1e-06
+    29	0.0871988274157	8e-07	1e-06
+    30	0.0878346525133	8e-07	1e-06
+    31	0.0848068930209	8e-07	1e-06
+    32	0.0870748609304	8e-07	1e-06
+    33	0.0878706276417	8e-07	1e-06
+    34	0.084934014827	8e-07	1e-06
+    35	0.0874385163188	8e-07	1e-06
+    36	0.088178679347	8e-07	1e-06
+    37	0.0977470390499	8e-07	1e-06
+    38	0.1105177477	8e-07	1e-06
+    39	0.113612297922	8e-07	1e-06
+    40	0.095368783921	8e-07	1e-06
+    41	0.101223174483	8e-07	1e-06
+    42	0.102340206504	8e-07	1e-06
+    43	0.0888929590583	8e-07	1e-06
+    44	0.08808054775	8e-07	1e-06
+    45	0.0884055383503	8e-07	1e-06
+    46	0.0863428749144	8e-07	1e-06
+    47	0.0867716297507	8e-07	1e-06
+    48	0.0873895958066	8e-07	1e-06
+    49	0.0856848731637	8e-07	1e-06
+    50	0.0879672206938	8e-07	1e-06
+    51	0.0887651219964	8e-07	1e-06
+    52	0.0860750377178	8e-07	1e-06
+    53	0.088589001447	8e-07	1e-06
+    54	0.089330278337	8e-07	1e-06
+
+Measurement: ProbePP
+  step	PP(V(PROBE_IN))	FROM	TO
+     1	0.0474403817207	8e-07	1e-06
+     2	0.0890575200319	8e-07	1e-06
+     3	0.0975100621581	8e-07	1e-06
+     4	0.0436615329236	8e-07	1e-06
+     5	0.0723033472896	8e-07	1e-06
+     6	0.0768744088709	8e-07	1e-06
+     7	0.0305005703121	8e-07	1e-06
+     8	0.03804144077	8e-07	1e-06
+     9	0.0387556571513	8e-07	1e-06
+    10	0.0214932458475	8e-07	1e-06
+    11	0.0238811261952	8e-07	1e-06
+    12	0.0240578707308	8e-07	1e-06
+    13	0.00677695544437	8e-07	1e-06
+    14	0.00678316992708	8e-07	1e-06
+    15	0.006779887015	8e-07	1e-06
+    16	0.00322709279135	8e-07	1e-06
+    17	0.00318924651947	8e-07	1e-06
+    18	0.00318426743615	8e-07	1e-06
+    19	0.0472214166075	8e-07	1e-06
+    20	0.0887263081968	8e-07	1e-06
+    21	0.0974146686494	8e-07	1e-06
+    22	0.0414744615555	8e-07	1e-06
+    23	0.0703104361892	8e-07	1e-06
+    24	0.0752401761711	8e-07	1e-06
+    25	0.0256304722279	8e-07	1e-06
+    26	0.0333483703434	8e-07	1e-06
+    27	0.0340130534023	8e-07	1e-06
+    28	0.0161087997258	8e-07	1e-06
+    29	0.0180040476844	8e-07	1e-06
+    30	0.0180887393653	8e-07	1e-06
+    31	0.00357988534961	8e-07	1e-06
+    32	0.00301413203124	8e-07	1e-06
+    33	0.00296753505245	8e-07	1e-06
+    34	0.00644726678729	8e-07	1e-06
+    35	0.00631382549182	8e-07	1e-06
+    36	0.00630247918889	8e-07	1e-06
+    37	0.0476120654494	8e-07	1e-06
+    38	0.0882513895631	8e-07	1e-06
+    39	0.0972757227719	8e-07	1e-06
+    40	0.0389984231442	8e-07	1e-06
+    41	0.0670368224382	8e-07	1e-06
+    42	0.0725581869483	8e-07	1e-06
+    43	0.0185294523835	8e-07	1e-06
+    44	0.0259182453156	8e-07	1e-06
+    45	0.0264996290207	8e-07	1e-06
+    46	0.00808311626315	8e-07	1e-06
+    47	0.00919955596328	8e-07	1e-06
+    48	0.00918016536161	8e-07	1e-06
+    49	0.0140114109963	8e-07	1e-06
+    50	0.0136299747974	8e-07	1e-06
+    51	0.01360216178	8e-07	1e-06
+    52	0.0172599805519	8e-07	1e-06
+    53	0.0171782709658	8e-07	1e-06
+    54	0.0171721428633	8e-07	1e-06

@@ -19,3 +19,5 @@ fp-info-cache
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+*.raw
