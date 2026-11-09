@@ -7,4 +7,5 @@
   (lib (name "SN74LVC1G125DCKR")(type "KiCad")(uri "${KIPRJMOD}/All imports/SN74LVC1G125DCKR.kicad_sym")(options "")(descr ""))
   (lib (name "2026-11-07_23-59-02")(type "KiCad")(uri "${KIPRJMOD}/All imports/KiCADv6/2026-11-07_23-59-02.kicad_sym")(options "")(descr ""))
   (lib (name "2026-11-07_23-42-08")(type "KiCad")(uri "${KIPRJMOD}/All imports/KiCADv6/2026-11-07_23-42-08.kicad_sym")(options "")(descr ""))
+  (lib (name "643250100604")(type "KiCad")(uri "${KIPRJMOD}/All imports/643250100604.kicad_sym")(options "")(descr ""))
 )
