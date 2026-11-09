@@ -9707,7 +9707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26bcdd4e-aee6-434d-b055-d6b8067f92d8")
-		(property "Reference" "R_SEL_EXT?"
+		(property "Reference" "R_SEL_EXT1"
 			(at 168.91 142.24 90)
 			(effects
 				(font
@@ -9761,7 +9761,7 @@
 		(instances
 			(project "moisture_sensor"
 				(path "/825525fa-c0d3-4d50-9436-189079d31295"
-					(reference "R_SEL_EXT?")
+					(reference "R_SEL_EXT1")
 					(unit 1)
 				)
 			)
@@ -11213,7 +11213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "655abad5-8089-4359-8f7f-e8b16d684943")
-		(property "Reference" "R_SEL_CLK"
+		(property "Reference" "R_SEL_CLK1"
 			(at 163.83 137.16 90)
 			(effects
 				(font
@@ -11265,7 +11265,7 @@
 		(instances
 			(project ""
 				(path "/825525fa-c0d3-4d50-9436-189079d31295"
-					(reference "R_SEL_CLK")
+					(reference "R_SEL_CLK1")
 					(unit 1)
 				)
 			)
@@ -11345,7 +11345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c499625-de5f-4029-b65f-0437fb93137b")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 137.16 300.99 90)
 			(effects
 				(font
@@ -11397,7 +11397,7 @@
 		(instances
 			(project "moisture_sensor"
 				(path "/825525fa-c0d3-4d50-9436-189079d31295"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14489,7 +14489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d29b38be-4e7e-4216-903c-18a620a33f15")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 127 288.29 90)
 			(effects
 				(font
@@ -14541,7 +14541,7 @@
 		(instances
 			(project "moisture_sensor"
 				(path "/825525fa-c0d3-4d50-9436-189079d31295"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -16190,7 +16190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f792a702-98fd-42e5-813c-501dfd6fe9fb")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 119.38 287.0199 0)
 			(effects
 				(font
@@ -16244,7 +16244,7 @@
 		(instances
 			(project "moisture_sensor"
 				(path "/825525fa-c0d3-4d50-9436-189079d31295"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
