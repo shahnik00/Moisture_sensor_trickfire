@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "KiCADv6")(type "KiCad")(uri "${KIPRJMOD}/All imports/KiCADv6")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/All imports/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TrickFire_Custom")(type "KiCad")(uri "C:/Users/nikun/OneDrive/Desktop/Kicad/Projects from UDEMY/Moisture_sensor_trickfire/TrickFire_Custom.pretty")(options "")(descr ""))
 )
