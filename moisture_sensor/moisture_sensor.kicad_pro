@@ -51,8 +51,31 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|30725000|116060000|826d7534-4e94-49d6-b0d7-4ca86cf563c3|00000000-0000-0000-0000-000000000000",
+          "Intentional RF test-point pad resize"
+        ],
+        [
+          "lib_footprint_mismatch|34360000|111700000|3dab23e6-132c-4431-9791-b8d1071b7366|00000000-0000-0000-0000-000000000000",
+          "Intentional RF test-point pad resize"
+        ],
+        [
+          "lib_footprint_mismatch|41687500|107960000|dcda14a9-c65a-4ca1-b6da-496b33784b7d|00000000-0000-0000-0000-000000000000",
+          "Intentional RF test-point pad resize"
+        ],
+        [
+          "lib_footprint_mismatch|44050000|105050000|3f41bbaa-d882-4385-9b59-3fed51d2d5e9|00000000-0000-0000-0000-000000000000",
+          "Intentional RF test-point pad resize"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -180,7 +203,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +233,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
